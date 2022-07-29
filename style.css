@@ -51,7 +51,7 @@ img{
     height: 220.17px;
     z-index: 9;
     opacity: 0.7;
-    background:var(--Soft-violet) ;
+    background:var(--Soft-violet);
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
 }
@@ -79,7 +79,6 @@ ul{
 }
 .attribution {
      font-size: 11px; text-align: center; 
-     margin-top 0;
     }
 .attribution a { 
     color: hsl(228, 45%, 44%);
