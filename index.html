@@ -14,8 +14,11 @@
 <main class="container">
     <div class="image">
       <div class="empty"></div>
-      <img src="./images/image-header-mobile.jpg"
-       alt="tech environment">
+      <picture>
+        <source media="(min-width:768px )" srcset="../stats-preview-card-component-main/images/image-header-desktop.jpg">
+        <source srcset="../stats-preview-card-component-main/images/image-header-mobile.jpg">
+        <img src="../stats-preview-card-component-main/images/image-header-mobile.jpg" alt="">
+      </picture>
     </div>
   <section>
       <h1>

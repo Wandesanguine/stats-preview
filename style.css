@@ -66,7 +66,7 @@ li{
     margin: 20px;
 }
 ul{
-   position: relative;
+    position: relative;
     list-style-type: none;
     font-weight: 900;
     bottom: 10px;
@@ -79,7 +79,8 @@ ul{
     border-radius: 10px;
 }
 .attribution {
-     font-size: 11px; text-align: center; 
+     font-size: 11px;
+     text-align: center; 
     }
 .attribution a { 
     color: hsl(228, 45%, 44%);
@@ -90,12 +91,18 @@ ul{
         flex-direction: column;
         align-items: center;
     }
-     .image, img, .empty{
+     .image,.empty{
         border-top-left-radius: 0;
         border-bottom-right-radius: 10px;
-        min-width: 300px;
+        min-width: 350px;
         height: 300px;
         margin-left: 0;
+    }
+    img{
+        border-top-left-radius: 0;
+        border-bottom-right-radius: 10px; 
+        min-width: 350px;
+        height: 300px;
     }
     .container{
         display: flex;
@@ -103,7 +110,6 @@ ul{
         justify-content: center;
         flex-direction: row-reverse;
         height: 300px;
-        background: pink;
         width: 650px;
         margin:150px auto 10px auto;
     }
@@ -115,8 +121,6 @@ ul{
         display: flex;
         justify-content: space-around;
         margin-top: 30px;
-        margin-left:auto 40px auto auto;
-        margin-right: 40px;
         width: 250px;
     }
     h1{
